@@ -11,32 +11,39 @@
 
 <body>
 
-    <div class="timer">
-        <a class="btn" href="./highscores.html">High Scores</a>
+    <div>
+        <a class="highscores" href="./highscores.html">High Scores</a>
     </div>
 
-    <div class="container">
-        <div id="test_box" class="">
-            <h1 id="question">When is the JavaScript Test gonna be done?</h1>
-            <div class="choice_option">
+    <div id="timer" class="timeRemaining">Time Remaining: 00</div>
+
+    <div class="quiz_container">
+        <div id="test_box" class="container">
+            <h1 id="question">
+                <p>
+                    
+                </p>
+            </h1>
+
+            <button class="btn" id="a"> 
                 <p class="indicator">A</p>
                 <p class="choice_text">choice1</p>
-            </div>
-            <div class="choice_option">
+            </button>
+            <button class="btn" id="b">
                 <p class="indicator">B</p>
                 <p class="choice_text">choice2</p>
-            </div>
-            <div class="choice_option">
+            </button>
+            <button class="btn" id="c"> 
                 <p class="indicator">C</p>
                 <p class="choice_text">choice3</p>
-            </div>
-            <div class="choice_option">
+            </button>
+            <button class="btn" id="d">
                 <p class="indicator">D</p>
                 <p class="choice_text">choice4</p>
-            </div>
+            </button>
         </div>
-    </div>
-   
+    </div> 
+
     <script src="script.js"></script>
 </body>
 

@@ -24,7 +24,7 @@ h1 {
     justify-content: center; 
  } 
 
-.btn {
+ .btn {
     color: whitesmoke;
     font-size: 18px;
     padding: 10px 0px;
@@ -39,11 +39,10 @@ h1 {
 
 .btn:hover {
     cursor: pointer;
-    box-shadow: 0 4px 14px 0 rgb(1, 53, 1);
+    box-shadow: 0 4px 14px 0 rgb(163, 175, 163);
     transform: translateY(-.5px);
     transition: transform 150ms;
 }
- 
 
 .container{
     width: 100vw;
@@ -51,4 +50,7 @@ h1 {
     display: flex;
     justify-content: center;
     align-items: center;
+}
+footer{
+    margin-bottom: 15px;
 }
